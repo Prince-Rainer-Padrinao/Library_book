@@ -1,0 +1,91 @@
+.container{
+   margin: 0;
+   padding: 0;
+  
+}
+.bookshelf{
+    height: 300px;
+    width: 600px;
+    border: solid black 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    box-sizing: border-box;
+}.book{
+    height: 30px;
+    width: 95px;
+    background: gray;
+    border: solid black 2px;
+    margin: 0;
+    cursor: pointer;
+}.button, .display_button{
+
+    height: 30px;
+    width: 110px;
+    /* background: darkred; */
+    border: solid darkslategray 2px;
+    
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    cursor: pointer;
+    
+}.outside_container{
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    gap: 10px;
+}.fill-upform{
+    height: 300px;
+    width: 200px;
+    border: solid black 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}.displayBook{
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid black 2px;
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 5px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}.remove_button{
+    height: 20px;
+    width: auto;
+    margin: 50px 10px 10px;
+}.dialog{
+    font-size: 50px;
+    /* text-align: center; */
+}.close{
+    width: 50%;
+    height: 25px;
+}.dialog div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}.dialog div input, .dialog div .save{
+    height: 25px;
+}

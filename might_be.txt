@@ -1,0 +1,12 @@
+
+function Book(title, author, date) {
+  // the constructor...
+  this.title = title
+  this.author = author
+  this.date = date
+}
+
+function addBookToLibrary(book) {
+  // do stuff 
+  myLibrary.push([book.title, book.author, book.date])
+}
